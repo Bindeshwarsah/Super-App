@@ -48,7 +48,7 @@ const InputField = () => {
         if(!formData.mobile.trim()){
           newError.mobile="Field is required"
         }
-        else if (!mobileRegex.test(formData.mobile)) {
+        else if (!mobileRegex.test(formData.mobile)){
           newError.mobile = 'Invalid mobile format';
         }
 

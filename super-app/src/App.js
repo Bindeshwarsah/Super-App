@@ -1,11 +1,15 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom';
 import RegistrationPage from './pages/RegistrationPage'
-import MovieBox from './components/movieBox/MovieBox'
+import Category from './pages/Category'
 
 const App = () => {
   return (
     <>
-      <MovieBox/>
+      <Routes>
+        <Route path="/" element={<RegistrationPage/>} />
+        <Route path="category" element={<Category/>} />
+      </Routes>
     </>
   )
 }
