@@ -1,0 +1,37 @@
+.infoBox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    list-style: none;
+    /* text-align: left; */
+    background-color: #5746EA;
+}
+
+.name{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3.5vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.188%; /* 2.38275rem */
+    letter-spacing: 0.04619rem;
+}
+.email{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3.5vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.688%; /* 2.39431rem */
+    letter-spacing: 0.04619rem;
+}
+.username{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 6vmin;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.188%; /* 2.984rem */
+    letter-spacing: 0.09019rem;
+}
