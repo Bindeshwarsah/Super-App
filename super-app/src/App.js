@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import Datetime from './components/DateTime/Datetime';
 import Weather from './components/WeatherApi/Weather';
 import NwesCard from './components/NewsApi/NwesCard';
+import Notes from './components/notes/Notes';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     {/* <UserInfo/> */}
     {/* <ProfileInfo/> */}
     <HomePage/>
+    {/* <Notes/> */}
     {/* <NwesCard/> */}
     {/* <Weather/> */}
     {/* <Datetime/> */}

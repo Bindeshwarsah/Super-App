@@ -159,11 +159,12 @@ const NewsCard = () => {
   }
 
   if (!newsData || newsData.length === 0) {
-    return <p>Error fetching news data</p>;
+    return <p className={styles.errorMessage}>Error fetching news data</p>;
+    
   }
 
   // Display the first news article
-  const firstArticle = newsData[72];
+  const firstArticle = newsData[12];
 
   return (
     <div className={styles.newsCard}>
