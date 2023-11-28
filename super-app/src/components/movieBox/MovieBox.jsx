@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import styles from "./MovieBox.module.css";
 import CategoryBox from './CategoryBox';
 import DangerImage from "../../assets/images/Danger-image.svg";
 const MovieBox = () => {
+  const navigate=useNavigate();
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [errorMessage, setErrorMessage] = useState('');
   
@@ -29,6 +31,7 @@ const MovieBox = () => {
         // Save selected categories to local storage
         try{
         localStorage.setItem('selectedCategories', JSON.stringify(selectedCategories));
+        navigate('/home');
   
         }catch (error){
           console.error('Error storing categories in local storage:', error);

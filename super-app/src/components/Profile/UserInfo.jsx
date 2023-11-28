@@ -6,7 +6,7 @@ const UserInfo = () => {
     const info = LocalStorageUtils('registrationData');
     console.log("User Info:", info);
   return (
-    <div>
+    <div className={styles.container}>
         {info &&(
             <ul className={styles.infoBox}>
                 <li className={styles.name}>

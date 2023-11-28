@@ -1,0 +1,54 @@
+.newsCard{
+    width: 26vw;
+    height: 100vh;
+    overflow-y: hidden;
+    /* border-radius: 1.1875rem;
+    border-bottom-right-radius:1.1875rem; */
+    
+}
+
+.newsImage{
+    width: 25vw;
+    height: 60vh;
+    border-top-right-radius: 1.1875rem;
+    border-top-left-radius:1.1875rem;
+
+}
+.date{
+    padding-top: .8rem;
+}
+.about{
+    width: 25vw;
+    height: 28vh;
+    border-radius: 0rem 0rem 1.1875rem 1.1875rem;
+    background: #FFF;
+    text-align: justify;
+    padding: .5rem 1.5rem 0rem 1.5rem;
+    color: #272727;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 2.5vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.688%;
+    border-bottom-right-radius:1.1875rem;
+    
+}
+
+.heading{
+    position: fixed;
+    bottom: 34vh;
+    width: 25vw;
+    padding: 0 1rem 0 1rem;
+    text-align: left;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3vmin;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.688%;
+    letter-spacing: 0.04rem;
+    background-color: rgba(0, 0, 0, 0.74);
+
+}
+

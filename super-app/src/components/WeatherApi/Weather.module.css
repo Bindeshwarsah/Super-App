@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90vh;
-    height: 30vh;
+    width: 80vh;
+    height: 22vh;
     border-bottom-left-radius:2.08925rem;
     border-bottom-right-radius: 2.08925rem;
     background-color: #101744;
-    padding: 0 1.4rem 0 1.4rem;
+    padding: 0 1.4rem .5rem 1.5rem;
 }
 
 .weatherInfo,
@@ -19,6 +19,9 @@
     justify-content: center;
     align-items: center;
 }
+/* .weatherImage{
+    height: 5rem;
+} */
 .error{
     color: white;
 }
@@ -26,7 +29,7 @@
 .weatherCondition{
     color: #FFF;
     font-family: Roboto;
-    font-size: 1.5rem;
+    font-size: 3.5vmin;
     font-style: normal;
     font-weight: 400;
     line-height: 139.688%; /* 2.74419rem */
@@ -34,7 +37,7 @@
 .tempMeasurement{
     color: #FFF;
     font-family: Roboto;
-    font-size: 2.5rem;
+    font-size: 6vmin;
     font-style: normal;
     font-weight: 400;
     line-height: 139.688%; 
@@ -46,7 +49,7 @@
     gap: 1rem;
     color: #FFF;
     font-family: Roboto;
-    font-size: 1.2rem;
+    font-size: 2.5vmin;
     font-style: normal;
     font-weight: 400;
     line-height: 139.688%; 
@@ -64,7 +67,7 @@
     gap: 1rem;
     color: #FFF;
     font-family: Roboto;
-    font-size: 1.1rem;
+    font-size: 2.5vmin;
     font-style: normal;
     font-weight: 400;
     line-height: 139.688%;
@@ -73,4 +76,13 @@
 hr{
     height: 10vh;
     margin-top: 1.5rem;
+}
+
+
+
+.weatherIcon{
+    color: white;
+    font-size: 3rem;
+    height: 4rem;
+
 }

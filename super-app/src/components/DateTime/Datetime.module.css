@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90vh;
-    height: 8vh;
+    width: 80vh;
+    height: 6vh;
     border-radius: 2.08925rem 2.08925rem 0rem 0rem;
     background-color: #FF4ADE;
 
     color: #FFF;
     font-family: Roboto;
-    font-size: 6vmin;
+    font-size: 4vmin;
     font-style: normal;
     font-weight: 600;
     line-height: 141.688%; 

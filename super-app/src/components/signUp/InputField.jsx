@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from "./InputField.module.css";
 
 const InputField = () => {
+  const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
         username: '',
@@ -64,6 +66,7 @@ const InputField = () => {
         
         if(validateForm()){
           localStorage.setItem('registrationData',JSON.stringify(formData));
+          navigate('/category');
         }
       };
     

@@ -8,6 +8,7 @@ import CategoryInfo from './components/Profile/CategoryInfo';
 import HomePage from './pages/HomePage';
 import Datetime from './components/DateTime/Datetime';
 import Weather from './components/WeatherApi/Weather';
+import NwesCard from './components/NewsApi/NwesCard';
 
 const App = () => {
   return (
@@ -16,11 +17,13 @@ const App = () => {
     {/* <UserInfo/> */}
     {/* <ProfileInfo/> */}
     <HomePage/>
+    {/* <NwesCard/> */}
     {/* <Weather/> */}
     {/* <Datetime/> */}
       {/* <Routes>
         <Route path="/" element={<RegistrationPage/>} />
-        <Route path="category" element={<Category/>} />
+        <Route path="/category" element={<Category/>} />
+        <Route path="/home" element={<HomePage/>}/>
       </Routes> */}
     </>
   )
