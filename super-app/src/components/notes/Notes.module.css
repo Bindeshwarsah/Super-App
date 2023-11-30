@@ -1,11 +1,13 @@
 .noteSection{
-    width: 28vw;
-    height: 60vh;
+    width: 25vw;
+    height: 64vh;
     border-radius: 1.1875rem;
     background-color: #F1C75B;
 
 }
+
 .heading{
+    height: 10vh;
     padding: 1rem;
     color: #000;
     font-family: Roboto;
@@ -16,6 +18,10 @@
     letter-spacing: 0.0475rem;
 }
 .styledText{
+    width: 25vw;
+    height: 50vh;
+    background-color: #F1C75B;
+    border-radius: 1.1875rem;
     color: #000;
     font-family: Roboto;
     font-size: 1.3125rem;

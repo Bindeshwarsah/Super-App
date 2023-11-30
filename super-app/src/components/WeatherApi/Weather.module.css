@@ -1,13 +1,28 @@
+.error,
+.errorMessage,
+.loading,
 .weatherContainer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80vh;
-    height: 22vh;
+    height: 20vh;
     border-bottom-left-radius:2.08925rem;
     border-bottom-right-radius: 2.08925rem;
     background-color: #101744;
     padding: 0 1.4rem .5rem 1.5rem;
+   
+}
+
+.error,
+.loading,
+.errorMessage{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #FFF;
 }
 
 .weatherInfo,
@@ -18,12 +33,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-/* .weatherImage{
-    height: 5rem;
-} */
-.error{
-    color: white;
 }
 
 .weatherCondition{

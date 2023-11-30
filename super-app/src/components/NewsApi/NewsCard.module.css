@@ -1,9 +1,12 @@
-.newsCard{
+.newsCard,
+.errorMessage,
+.loadingMessage{
     width: 26vw;
-    height: 100vh;
+    height: 88vh;
     overflow-y: hidden;
-    /* border-radius: 1.1875rem;
-    border-bottom-right-radius:1.1875rem; */
+    background-color: #FFF;
+    border-radius: 1.1875rem;
+    /* border-bottom-right-radius:1.1875rem; */
     
 }
 
@@ -14,8 +17,14 @@
     border-top-left-radius:1.1875rem;
 
 }
-.errorMessage{
-    color: #FFF;
+.errorMessage,
+.loadingMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: .5rem;
+    color: rgb(77, 74, 74);
 }
 .date{
     padding-top: .8rem;
@@ -24,7 +33,7 @@
     width: 25vw;
     height: 28vh;
     border-radius: 0rem 0rem 1.1875rem 1.1875rem;
-    background: #FFF;
+    background-color: #FFF;
     text-align: justify;
     padding: .5rem 1.5rem 0rem 1.5rem;
     color: #272727;

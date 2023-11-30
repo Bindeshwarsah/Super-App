@@ -10,6 +10,8 @@ import Datetime from './components/DateTime/Datetime';
 import Weather from './components/WeatherApi/Weather';
 import NwesCard from './components/NewsApi/NwesCard';
 import Notes from './components/notes/Notes';
+import Timer from './components/Timer/Timer';
+import BrowseBtn from './components/BrowseBtn/BrowseBtn';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
     {/* <UserInfo/> */}
     {/* <ProfileInfo/> */}
     <HomePage/>
+    {/* <BrowseBtn/> */}
+    {/* <Timer/> */}
     {/* <Notes/> */}
     {/* <NwesCard/> */}
     {/* <Weather/> */}

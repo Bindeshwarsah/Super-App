@@ -23,14 +23,27 @@ body,html{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
+    gap: .7rem;
+}
+.leftCard{
+    padding-left: 2rem;
+}
+.rightCard{
     align-items: center;
-    gap: 2rem;
-    padding: 2rem;
+    padding-right: 2rem;
 }
 .notesCard{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 2rem;
 }
-
+.leftTopCard{
+    display: flex;
+    gap: 2rem;
+}
+.profileDateTime{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
