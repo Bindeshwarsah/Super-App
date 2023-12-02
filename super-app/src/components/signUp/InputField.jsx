@@ -90,7 +90,6 @@ const InputField = () => {
               />
                {errors.name && <span className={styles.error}>{errors.name}</span>}
             <br />
-            {/* {errors.name && <span className={styles.error}>{errors.name}</span>} */}
               <input
                 type="text"
                 name="username"
@@ -100,7 +99,6 @@ const InputField = () => {
               />
               {errors.username && <span className={styles.error}>{errors.username}</span>}
             <br />
-            {/* {errors.username && <span className={styles.error}>{errors.username}</span>} */}
               <input
                 type="email"
                 name="email"
@@ -110,7 +108,6 @@ const InputField = () => {
               />
               {errors.email && <span className={styles.error}>{errors.email}</span>}
             <br />
-            {/* {errors.email && <span className={styles.error}>{errors.email}</span>} */}
               <input
                 type="number"
                 name="mobile"
@@ -120,7 +117,6 @@ const InputField = () => {
               />
               {errors.mobile && <span className={styles.error}>{errors.mobile}</span>}
             <br />
-            {/* {errors.mobile && <span className={styles.error}>{errors.mobile}</span>} */}
             <div className={styles.checkBoxField}>
                
                 <input
@@ -134,7 +130,6 @@ const InputField = () => {
             </div>
             {errors.terms && <span className={styles.error}>{errors.terms}</span>}
             <br/>
-            {/* {errors.terms && <span className={styles.error}>{errors.terms}</span>} */}
 
             <div className={styles.signUpBtn}>
               <button type="submit" className={styles.Btn}>Sign up</button>
@@ -153,11 +148,6 @@ const InputField = () => {
               </p>
               <span  className={styles.conditionColor}>Policy</span>
             </div>
-            
-         
-           
-            
-
           </form>
           </div>
         </div>

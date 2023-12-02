@@ -11,19 +11,14 @@ body,html{
     width: 100vw;
     overflow: hidden;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
-    /* gap: 2rem; */
-    /* background-color: #000; */
-    /* padding-left: 2rem; */
-    
+
 }
 .leftCard,
 .rightCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     gap: .7rem;
 }
 .leftCard{
@@ -36,7 +31,6 @@ body,html{
 .notesCard{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 .leftTopCard{
     display: flex;

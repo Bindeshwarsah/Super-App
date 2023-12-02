@@ -10,10 +10,6 @@ const Banner = () => {
         <div className={styles.leftContainer}>
           <p className={styles.heading}>Discover new things on Superapp</p>
         </div>
-
-        {/* <div className={styles.rightContainer}>
-          <InputField/>
-        </div> */}
       </div>
     </>
   )

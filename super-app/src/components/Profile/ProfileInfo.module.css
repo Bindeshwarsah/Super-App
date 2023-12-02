@@ -3,8 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100vw;
-    height: 100vh; */
     border-radius: 2.08925rem;
     background-color: #5746EA;
     padding: 1rem;
@@ -21,5 +19,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: .5rem; */
 }

@@ -1,6 +1,4 @@
 .categoryCard{
-    /* width: 100vw;
-    height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,7 +6,6 @@
     list-style: none;
     gap: 1rem;
     overflow-y: scroll;
-    /* height: 19vh; */
     height: 8vw;
     background-color: #5746EA;
 }
