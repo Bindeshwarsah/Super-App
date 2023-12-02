@@ -1,0 +1,22 @@
+.ProfileInfo{
+    width: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2.08925rem;
+    background-color: #5746EA;
+    padding: 1rem;
+}
+.leftCard{ 
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 30vh;
+}
+.rightCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

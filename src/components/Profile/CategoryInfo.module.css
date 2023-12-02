@@ -1,0 +1,28 @@
+.categoryCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    overflow-y: scroll;
+    height: 8vw;
+    background-color: #5746EA;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 2.30919rem;
+    background-color: #9F94FF;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%;
+    letter-spacing: 0.03519rem;
+
+}
