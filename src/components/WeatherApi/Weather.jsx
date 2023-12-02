@@ -14,7 +14,7 @@ const Weather = () => {
             try {
                 const apiKey = '88c686317efa4c7bb53174951232611';
                 const city = 'Visakhapatnam';
-                const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+                const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
                 const response = await axios.get(apiUrl);
                 setWeatherData(response.data);
             } catch (error) {
