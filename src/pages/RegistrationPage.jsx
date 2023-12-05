@@ -7,8 +7,8 @@ const RegistrationPage = () => {
   return (
     <>
         <div className={styles.register}>
-            <Banner/>
-            <InputField/>
+            <Banner />
+            <InputField />
         </div>
         
     </>

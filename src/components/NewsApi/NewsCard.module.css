@@ -10,7 +10,7 @@
 }
 
 .newsImage{
-    width: 25vw;
+    width: 26vw;
     height: 60vh;
     border-top-right-radius: 1.1875rem;
     border-top-left-radius:1.1875rem;
@@ -48,8 +48,8 @@
 
 .heading{
     position: fixed;
-    bottom: 34vh;
-    width: 25vw;
+    bottom: 38vh;
+    width: 26vw;
     padding: 0 1rem 0 1rem;
     text-align: left;
     color: #FFF;

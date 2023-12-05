@@ -42,3 +42,10 @@
     letter-spacing: 0.06875rem;
     padding-left: 4vw;
 }
+
+
+@media screen and (max-width:768px) {
+    .mainContainer{
+       display: none;
+    }
+}

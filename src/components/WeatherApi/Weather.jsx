@@ -33,7 +33,7 @@ const Weather = () => {
         return <p className={styles.error}>Error fetching weather data</p>;
     }
 
-    // Map Weather Icons based on the weather condition
+        // Map Weather Icons based on the weather condition
     const getWeatherIcon = (conditionCode) => {
         switch (conditionCode) {
             case 1000:
@@ -47,11 +47,33 @@ const Weather = () => {
             case 1195:
             case 1198:
                 return 'wi-rain'; // Rain
+            case 1183:
+            case 1186:
+            case 1180:
+            case 1240:
+            case 1243:
+                return 'wi-showers'; // Showers
+            case 1150:
+            case 1153:
+            case 1168:
+            case 1171:
+                return 'wi-thunderstorm'; // Thunderstorm
+            case 1063:
+            case 1183:
+            case 1072:
+            case 1087:
+                return 'wi-sleet'; // Sleet
+            case 1080:
+            case 1147:
+            case 1180:
+            case 1183:
+                return 'wi-snow'; // Snow
             // Add more conditions as needed
             default:
                 return 'wi-day-sunny'; // Default icon
         }
     };
+
 
     const conditionCode = weatherData.current.condition.code;
     const weatherIconClass = getWeatherIcon(conditionCode);

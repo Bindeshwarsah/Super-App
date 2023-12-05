@@ -74,81 +74,81 @@ const InputField = () => {
         
         <div className={styles.RegistrationContainer}>
           <div className={styles.signUp}>
-          <div className={styles.rightContainer}>
-             <h1 className={styles.title}>Super app</h1>
+            <div className={styles.rightContainer}>
+              <h1 className={styles.title}>Super app</h1>
               <p className={styles.para}>Create your new account</p>
 
             </div>
           
-          <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                name="name"
-                placeholder='Name'
-                value={formData.name}
-                onChange={handleChange} className={`${styles.inputField} ${errors.name ? styles.error : ''}`}
-              />
-               {errors.name && <span className={styles.error}>{errors.name}</span>}
-            <br />
-              <input
-                type="text"
-                name="username"
-                placeholder='Username'
-                value={formData.username}
-                onChange={handleChange} className={`${styles.inputField} ${errors.username ? styles.error : ''}`}
-              />
-              {errors.username && <span className={styles.error}>{errors.username}</span>}
-            <br />
-              <input
-                type="email"
-                name="email"
-                placeholder='Email'
-                value={formData.email}
-                onChange={handleChange} className={`${styles.inputField} ${errors.email ? styles.error : ''}`}
-              />
-              {errors.email && <span className={styles.error}>{errors.email}</span>}
-            <br />
-              <input
-                type="number"
-                name="mobile"
-                placeholder='Mobile'
-                value={formData.mobile}
-                onChange={handleChange} className={`${styles.inputField} ${errors.mobile ? styles.error : ''}`}
-              />
-              {errors.mobile && <span className={styles.error}>{errors.mobile}</span>}
-            <br />
-            <div className={styles.checkBoxField}>
-               
+            <form onSubmit={handleSubmit}>
                 <input
-                    type="checkbox"
-                    name="terms"
-                    checked={termsChecked}
-                    onChange={() => setTermsChecked(!termsChecked)}
-                    className={styles.checkbox}
+                  type="text"
+                  name="name"
+                  placeholder='Name'
+                  value={formData.name}
+                  onChange={handleChange} className={`${styles.inputField} ${errors.name ? styles.error : ''}`}
                 />
-                <span className={styles.terms}> Share my registration data with Superapp</span>    
-            </div>
-            {errors.terms && <span className={styles.error}>{errors.terms}</span>}
-            <br/>
+                {errors.name && <span className={styles.error}>{errors.name}</span>}
+              <br />
+                <input
+                  type="text"
+                  name="username"
+                  placeholder='Username'
+                  value={formData.username}
+                  onChange={handleChange} className={`${styles.inputField} ${errors.username ? styles.error : ''}`}
+                />
+                {errors.username && <span className={styles.error}>{errors.username}</span>}
+              <br />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder='Email'
+                  value={formData.email}
+                  onChange={handleChange} className={`${styles.inputField} ${errors.email ? styles.error : ''}`}
+                />
+                {errors.email && <span className={styles.error}>{errors.email}</span>}
+              <br />
+                <input
+                  type="number"
+                  name="mobile"
+                  placeholder='Mobile'
+                  value={formData.mobile}
+                  onChange={handleChange} className={`${styles.inputField} ${errors.mobile ? styles.error : ''}`}
+                />
+                {errors.mobile && <span className={styles.error}>{errors.mobile}</span>}
+              <br />
+              <div className={styles.checkBoxField}>
+                
+                  <input
+                      type="checkbox"
+                      name="terms"
+                      checked={termsChecked}
+                      onChange={() => setTermsChecked(!termsChecked)}
+                      className={styles.checkbox}
+                  />
+                  <span className={styles.terms}> Share my registration data with Superapp</span>    
+              </div>
+              {errors.terms && <span className={styles.error}>{errors.terms}</span>}
+              <br/>
 
-            <div className={styles.signUpBtn}>
-              <button type="submit" className={styles.Btn}>Sign up</button>
-            </div>
-            <br/>
-            <div>
-              <p className={styles.conditions}>By clicking on Sign up. you agree to Superapp 
-              <span className={styles.conditionColor}> Terms and </span>
-              </p>
-              <span className={styles.conditionColor}>Conditions of Use</span>
-            </div>
-            <br/>
-            <div>
-              <p className={styles.conditions}>To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp
-              <span  className={styles.conditionColor}> Privacy</span>
-              </p>
-              <span  className={styles.conditionColor}>Policy</span>
-            </div>
-          </form>
+              <div className={styles.signUpBtn}>
+                <button type="submit" className={styles.Btn}>Sign up</button>
+              </div>
+              <br/>
+              <div>
+                <p className={styles.conditions}>By clicking on Sign up. you agree to Superapp 
+                <span className={styles.conditionColor}> Terms and Conditions of Use</span>
+                </p>
+                {/* <span className={styles.conditionColor}>Conditions of Use</span> */}
+              </div>
+              <br/>
+              <div>
+                <p className={styles.conditions}>To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp
+                <span  className={styles.conditionColor}> Privacy Policy</span>
+                </p>
+                {/* <span  className={styles.conditionColor}>Policy</span> */}
+              </div>
+            </form>
           </div>
         </div>
       );

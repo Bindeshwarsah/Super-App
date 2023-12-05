@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     width: 120vh;
+    /* width: 65vw; */
     height: 30vh;
     border-radius: 1.1875rem;
     background-color: #1E2343;
@@ -14,7 +15,7 @@
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 105.688%; /* 2.64219rem */
+    line-height: 105.688%;
     letter-spacing: 0.1rem;
 }
 
@@ -51,7 +52,7 @@
     font-size: 3.125rem;
     font-style: normal;
     font-weight: 300;
-    line-height: 105.688%; /* 3.30275rem */
+    line-height: 105.688%; 
     letter-spacing: 0.125rem;
     background-color: transparent;
     border: none;
@@ -85,7 +86,7 @@
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 105.688%; /* 2.04769rem */
+    line-height: 105.688%;
     letter-spacing: 0.0775rem;
 }
 .level{
@@ -94,7 +95,7 @@
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 105.688%; /* 1.71744rem */
+    line-height: 105.688%; 
     letter-spacing: 0.065rem;
     padding: .2rem 0rem .5rem 0rem;
 }
@@ -112,4 +113,34 @@
     letter-spacing: 0.14rem;
     padding-top: 2rem;
 
-}
+} 
+
+/* 
+@media screen and (max-width: 768px) {
+    .timerContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+    }
+  
+    .timerDisplay {
+      font-size: 1rem;
+    }
+  
+    .countDownOuterCircle {
+      width: 8rem;
+      height: 8rem;
+    }
+  
+    .inputTime {
+      width: 3rem;
+      font-size: 2rem;
+    }
+  
+    .timerBtn {
+      width: 10rem;
+      font-size: 1rem;
+    }
+  } */

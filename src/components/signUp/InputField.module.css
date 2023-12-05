@@ -30,13 +30,12 @@
     font-size: 9.1875vmin;
     font-style: normal;
     font-weight: 400;
-    /* line-height: 130.688%;  */
 
 }
 .para{
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.4625rem;
+    font-size: 4vmin;
     font-style: normal;
     font-weight: 400;
     line-height: 130.688%; /* 2.18263rem */
@@ -46,13 +45,13 @@
     height: 2.5rem; 
     border-radius:0.5vw;
     background: #292929;
-    margin-top: 1vw;
+    margin-top: 1rem;
     border: none;
     outline: none;
     padding-left: 1.5vw;
     color: #7C7C7C;
     font-family: 'DM Sans', sans-serif;
-    font-size: 2.5vmin;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 139.688%; 
@@ -97,6 +96,7 @@
     letter-spacing: 0.03625rem;
 }
 .conditions{
+    width: 28vw;
     color: #7C7C7C;
     font-family: Roboto;
     font-size: 0.8rem;
@@ -113,7 +113,7 @@
     font-weight: 500;
     line-height: 141.7%;
     letter-spacing: 0.0225rem;
-    text-align: right;
+    /* text-align: right; */
 }
 .error{
     color: #F00;
@@ -127,4 +127,40 @@
     border-radius: 0.2385rem;
     border: 1px solid #F00;
     background: #292929;
+}
+
+
+@media screen and (max-width:768px) {
+    .inputField{
+        width: 80vw;
+        margin-top: .5rem;
+    }
+    .signUp{
+        width: 80vw; 
+    }
+    form{
+        /* display: flex;
+        flex-direction: column; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .conditions{
+        width: 80vw; 
+        font-size: 3.5vmin;
+  }
+  .conditionColor{
+    font-size: 3.5vmin;
+  }
+
+  
+.Btn{
+    width: 70vw; 
+}
+.checkbox{
+    width: 5vw;
+    height: 5vh;
+}
+.terms{
+    font-size: 3.5vmin;
+}
 }

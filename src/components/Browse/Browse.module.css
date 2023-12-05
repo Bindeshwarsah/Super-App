@@ -11,7 +11,6 @@
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -49,9 +48,29 @@
     letter-spacing: 0.038rem;
 }
 
-
-
 .categoryMovies{
     display: flex;
     gap: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .browseContainer {
+     overflow-x: scroll;
+    }
 }
