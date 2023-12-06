@@ -9,15 +9,18 @@ const UserInfo = () => {
     <div className={styles.container}>
         {info &&(
             <ul className={styles.infoBox}>
-                <li className={styles.name}>
-                {info.name}
-                </li>
-                <li className={styles.email}>
-                {info.email}
-                </li>
-                <li className={styles.username}>
-                    {info.username}
-                </li>
+                {/* <div className={styles.container}> */}
+                    <li className={styles.name}>
+                    {info.name}
+                    </li>
+                    <li className={styles.email}>
+                    {info.email}
+                    </li>
+                    <li className={styles.username}>
+                        {info.username}
+                    </li>
+                {/* </div> */}
+               
             </ul>
             
             

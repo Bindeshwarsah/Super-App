@@ -14,4 +14,4 @@ const BrowseEntertainmentPage = () => {
   )
 }
 
-export default BrowseEntertainmentPage
+export default BrowseEntertainmentPage;

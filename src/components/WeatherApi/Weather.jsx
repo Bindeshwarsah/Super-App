@@ -68,7 +68,6 @@ const Weather = () => {
             case 1180:
             case 1183:
                 return 'wi-snow'; // Snow
-            // Add more conditions as needed
             default:
                 return 'wi-day-sunny'; // Default icon
         }

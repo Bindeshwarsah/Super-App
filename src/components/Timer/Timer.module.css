@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 120vh;
-    /* width: 65vw; */
-    height: 30vh;
+    /* width: 120vh; */
+    width: 67vw;
+    /* height: 30vh; */
     border-radius: 1.1875rem;
     background-color: #1E2343;
 }
@@ -115,32 +115,18 @@
 
 } 
 
-/* 
+
 @media screen and (max-width: 768px) {
     .timerContainer {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100vw;
+      width: 90vw;
+      margin-top: 3.2rem;
     }
-  
-    .timerDisplay {
-      font-size: 1rem;
+
+    .timerSection{
+        gap: 0rem;
     }
-  
-    .countDownOuterCircle {
-      width: 8rem;
-      height: 8rem;
-    }
-  
-    .inputTime {
-      width: 3rem;
-      font-size: 2rem;
-    }
-  
-    .timerBtn {
-      width: 10rem;
-      font-size: 1rem;
-    }
-  } */
+  }

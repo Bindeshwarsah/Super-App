@@ -33,3 +33,11 @@
     border: none;
     padding: 1rem;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .noteSection{
+        width: 90vw;
+        height: 55vh;
+    }
+}

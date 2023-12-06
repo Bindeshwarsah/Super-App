@@ -2,13 +2,18 @@
 .errorMessage,
 .loadingMessage{
     width: 26vw;
-    height: 88vh;
+    height: 85.5vh;
     overflow-y: hidden;
     background-color: #FFF;
     border-radius: 1.1875rem;
     
 }
+.upperCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 
+}
 .newsImage{
     width: 26vw;
     height: 60vh;
@@ -47,8 +52,8 @@
 }
 
 .heading{
-    position: fixed;
-    bottom: 38vh;
+    position: absolute; 
+    bottom: 1vh;
     width: 26vw;
     padding: 0 1rem 0 1rem;
     text-align: left;
@@ -61,5 +66,23 @@
     letter-spacing: 0.04rem;
     background-color: rgba(0, 0, 0, 0.74);
 
+}
+
+@media only screen and (max-width: 768px) {
+.newsCard,
+.errorMessage,
+.loadingMessage{
+    width: 90vw;
+    margin-top: .5rem;
+}
+.newsImage,
+.heading{
+    width: 90vw;
+}
+.about{
+    width: 90vw;
+    font-size: .9rem;
+}
+    
 }
 

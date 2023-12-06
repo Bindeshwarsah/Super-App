@@ -13,14 +13,11 @@ const Timer = () => {
   const [buttonText, setButtonText] = useState('Start');
   const [countdownKey, setCountdownKey] = useState(0);
 
-
-
   const playRingtone = () => {
-    // You can replace 'ringtone.mp3' with the path to your audio file
     const audio = new Audio(Ringtone);
     audio.play();
 
-    // Stop the audio after 5 seconds
+    // Stop the audio after 4 seconds
     setTimeout(() => {
       audio.pause();
       audio.currentTime = 0;
@@ -68,15 +65,13 @@ const Timer = () => {
 
   return (
     <div className={styles.timerContainer}>
-      {/* <div className={styles.countdownCircle}> */}
-
       <div className={styles.countDownOuterCircle}>
         <div className={styles.countdownCircle}>
           <CountdownCircleTimer
             key={countdownKey}
             isPlaying={isRunning}
             duration={hours * 3600 + minutes * 60 + seconds}
-            colors={['#FF6A6A', '#F7B801', '#A30000', '#A30000']}
+            colors={['#FF6A6A']}
             size={150}
             onComplete={() => {
               setIsRunning(false);

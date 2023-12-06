@@ -1,7 +1,7 @@
 .ProfileInfo{
-    width: 80vh;
+    width: 40vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 2.08925rem;
     background-color: #5746EA;
@@ -9,6 +9,7 @@
 }
 .leftCard{ 
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .logo{
@@ -20,3 +21,21 @@
     justify-content: center;
     align-items: center;
 }
+
+
+  @media only screen and (max-width: 768px) {
+    .ProfileInfo {
+      width: 90vw; 
+      justify-content: space-around;
+    }
+  
+    .leftCard {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      height: 15vh; 
+    }
+  }
+    

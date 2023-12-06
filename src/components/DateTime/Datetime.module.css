@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80vh;
+    width: 40vw;
     height: 5vh;
     border-radius: 2.08925rem 2.08925rem 0rem 0rem;
     background-color: #FF4ADE;
@@ -14,4 +14,12 @@
     font-weight: 600;
     line-height: 141.688%; 
     letter-spacing: 0.06881rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .datetimeContainer {
+        width: 90vw;
+        height: auto; /* Adjust height as needed for smaller screens */
+    }
 }

@@ -1,18 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body,html{
-    background-color: #000;
-}
 .home{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-
+    background-color: #000;
 }
 .leftCard,
 .rightCard{
@@ -34,10 +26,33 @@ body,html{
 }
 .leftTopCard{
     display: flex;
-    gap: 2rem;
+    gap: .5rem;
 }
 .profileDateTime{
     display: flex;
     flex-direction: column;
     gap: .7rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .leftTopCard{
+        flex-direction: column;
+    }
+    .home{
+        width: 100vw;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftCard{
+        padding-left: 0% ;
+    }
+    .rightCard{
+        padding-right: 0%;
+    }
 }

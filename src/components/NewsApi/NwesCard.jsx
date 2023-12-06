@@ -18,8 +18,8 @@
 //   useEffect(() => {
 //     const fetchNews = async () => {
 //       try {
-//         const apiKey = 'JjTJTy11T2l3tJOxIR7PuuC6GLk9C0VF';
-//         const apiUrl = `https://api.apilayer.com/world_news/extract-news?url=url&analyze=analyze=${apiKey}`;
+        // const apiKey = 'JjTJTy11T2l3tJOxIR7PuuC6GLk9C0VF';
+        // const apiUrl = `https://api.apilayer.com/world_news/extract-news?url=url&analyze=analyze=${apiKey}`;
 //         const response = await axios.get(apiUrl);
 //         setNewsData(response.data.articles);
 //       } catch (error) {     
@@ -204,6 +204,19 @@ const NewsCard = () => {
       try {
         const apiKey = 'a1362e4a78110946d636806f4ced56eb';
         const apiUrl = `https://gnews.io/api/v4/top-headlines?country=us&token=${apiKey}`;
+
+        //Actual data above
+
+
+
+
+
+
+
+
+
+        // const apiKey = 'JjTJTy11T2l3tJOxIR7PuuC6GLk9C0VF';
+        // const apiUrl = `https://api.apilayer.com/world_news/extract-news?url=url&analyze=analyze=${apiKey}`;
         const response = await axios.get(apiUrl);
 
         if (response.data && response.data.articles && response.data.articles.length > 0) {
@@ -239,17 +252,20 @@ const NewsCard = () => {
 
   return (
     <div className={styles.newsCard}>
-      <div>
-        {randomArticle && randomArticle.image && (
-          <img src={randomArticle.image} alt="News" className={styles.newsImage} />
-        )}
-      </div>
-      <div className={styles.heading}>
-        <h2>{randomArticle && randomArticle.title}</h2>
-        <div className={styles.date}>
-          <Datetime backgroundColor="transparent" fontSize="16px" textColor="#FFF" width="15rem" />
+      <div className={styles.upperCard}>
+        <div >
+          {randomArticle && randomArticle.image && (
+            <img src={randomArticle.image} alt="News" className={styles.newsImage} />
+          )}
+        </div>
+        <div className={styles.heading}>
+          <h2>{randomArticle && randomArticle.title}</h2>
+          <div className={styles.date}>
+            <Datetime backgroundColor="transparent" fontSize="16px" textColor="#FFF" width="15rem" />
+          </div>
         </div>
       </div>
+      
       <div className={styles.about}>
         {randomArticle && randomArticle.description && (
           <p className={styles.description}>{truncateText(randomArticle.description, 130)}</p>

@@ -5,7 +5,7 @@ import styles from "./CategoryInfo.module.css";
 const CategoryInfo = () => {
     const category=LocalStorageUtils('selectedCategories');
   return (
-    <div>
+    <div className={styles.categoryInfoBox}>
         {
           category && (
             <ul className={styles.categoryCard}>

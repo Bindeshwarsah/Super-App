@@ -4,10 +4,15 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 1rem;
+    gap: .5rem;
     overflow-y: scroll;
-    height: 8vw;
+    height: 15vh;
     background-color: #5746EA;
+}
+.categoryInfoBox{
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
 }
 .category{
     display: flex;
@@ -26,3 +31,21 @@
     letter-spacing: 0.03519rem;
 
 }
+
+
+  @media only screen and (max-width: 768px) {
+    .categoryCard {
+      height: 10vh;
+    }
+    .categoryInfoBox{
+      width: 50vw;
+    }
+  
+    .category {
+      width: 4.5rem; 
+      height: 1.5rem;
+      font-size: .8rem;
+      
+    }
+  }
+  

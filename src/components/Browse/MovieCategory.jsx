@@ -3,7 +3,7 @@ import styles from "./MovieCategory.module.css";
 import MovieList from './MovieList';
 
 const MovieCategory = ({ category, movies }) => (
-  <div>
+  <div >
     <h2 className={styles.categoryName}>{category}</h2>
     <MovieList movies={movies}   />
   </div>

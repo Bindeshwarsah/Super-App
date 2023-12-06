@@ -79,6 +79,7 @@ const Browse = () => {
       } catch (error) {
         console.error('Error fetching movies:', error.message);
         setError('Error fetching movies. Please try again later.');
+        <p className={styles.error}>{error}</p>
         setLoading(false);
       }
     };
