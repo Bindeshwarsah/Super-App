@@ -83,7 +83,7 @@ const Weather = () => {
                 <i className={`wi ${weatherIconClass} ${styles.weatherIcon}`}></i>
                 <p className={styles.weatherCondition}>{weatherData.current.condition.text}</p>
             </div>
-            <hr />
+            <hr className={styles.horizontalLine}/>
             <div className={styles.temperatureInfo}>
                 <p className={styles.tempMeasurement}>{weatherData.current.temp_c} °C</p>
 
@@ -98,7 +98,7 @@ const Weather = () => {
                 </div>
 
             </div>
-            <hr/>
+            <hr className={styles.horizontalLine}/>
             <div className={styles.windHumidityInfo}>
                 <div className={styles.humidityInfo}>
                     <div>        

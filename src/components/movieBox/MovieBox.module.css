@@ -1,8 +1,12 @@
 
+body{
+  background-color: #000;
+  
+}
 .card{
     display: flex;
     width: 100vw;
-    /* height: 100vh; */
+    height: 100vh;
 }
 .leftContainer{
     width: 46vw;
@@ -19,7 +23,6 @@
 }
 .leftHeadingBox{
     width: 25rem;
-    /* height: 15rem; */
 }
 .leftHeading{
     color: #FFF;
@@ -115,6 +118,7 @@
 
   @media screen and (max-width: 768px) {
     .card {
+      height: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;

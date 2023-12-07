@@ -139,14 +139,12 @@ const InputField = () => {
                 <p className={styles.conditions}>By clicking on Sign up. you agree to Superapp 
                 <span className={styles.conditionColor}> Terms and Conditions of Use</span>
                 </p>
-                {/* <span className={styles.conditionColor}>Conditions of Use</span> */}
               </div>
               <br/>
               <div>
                 <p className={styles.conditions}>To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp
                 <span  className={styles.conditionColor}> Privacy Policy</span>
                 </p>
-                {/* <span  className={styles.conditionColor}>Policy</span> */}
               </div>
             </form>
           </div>

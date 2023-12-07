@@ -1,13 +1,4 @@
 
-.container{
-  /* position: relative; */
-  /* width: 23vw; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
-  /* background-color: #5746EA; */
-}
 .infoBox{
     display: flex;
     flex-direction: column;

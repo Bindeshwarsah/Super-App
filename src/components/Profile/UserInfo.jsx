@@ -9,7 +9,6 @@ const UserInfo = () => {
     <div className={styles.container}>
         {info &&(
             <ul className={styles.infoBox}>
-                {/* <div className={styles.container}> */}
                     <li className={styles.name}>
                     {info.name}
                     </li>
@@ -19,11 +18,7 @@ const UserInfo = () => {
                     <li className={styles.username}>
                         {info.username}
                     </li>
-                {/* </div> */}
-               
-            </ul>
-            
-            
+            </ul>   
         )
         }
     </div>

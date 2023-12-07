@@ -38,7 +38,7 @@
     font-size: 4vmin;
     font-style: normal;
     font-weight: 400;
-    line-height: 130.688%; /* 2.18263rem */
+    line-height: 130.688%;
 }
 .inputField{
     width: 27vw;
@@ -113,7 +113,6 @@
     font-weight: 500;
     line-height: 141.7%;
     letter-spacing: 0.0225rem;
-    /* text-align: right; */
 }
 .error{
     color: #F00;
@@ -138,12 +137,6 @@
     .signUp{
         width: 80vw; 
     }
-    form{
-        /* display: flex;
-        flex-direction: column; */
-        /* justify-content: center;
-        align-items: center; */
-    }
     .conditions{
         width: 80vw; 
         font-size: 3.5vmin;
@@ -151,7 +144,6 @@
   .conditionColor{
     font-size: 3.5vmin;
   }
-
   
 .Btn{
     width: 70vw; 
