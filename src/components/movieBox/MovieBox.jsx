@@ -37,7 +37,7 @@ const MovieBox = () => {
           console.error('Error storing categories in local storage:', error);
         }
         // Navigate to the next page (Replace with the actual next page path)
-        // For now, displaying a success message
+        
         setErrorMessage('');
   
        
